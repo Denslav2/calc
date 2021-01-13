@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calc">
+            <h2 class="title">Простой калькулятор</h2>
+            <div class="monitor">
+                <textarea name="" id="res" placeholder="Результат" disabled></textarea>
+            </div>
+            <div class="calc__num">
+                <input class="calc__in" type="text" id="num_1" placeholder="Число 1">
+                <input class="calc__in" type="text" id="num_2" placeholder="Число 1">
+            </div>
+            <div class="result">
+                <button class="calc__btn" onclick="plus()">Сложить</button>
+                <button class="calc__btn" onclick="minus()">Вычесть</button>
+                <button class="calc__btn" onclick="mult()">Умножить</button>
+                <button class="calc__btn" onclick="divis()">Делить</button>
+            </div>
+            <script src="script.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
